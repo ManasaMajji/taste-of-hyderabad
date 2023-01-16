@@ -1,0 +1,12 @@
+<div class="sub-category-card">
+  <img [src]="category.img" alt="{{category.name}}" />
+  <span class="price">{{category.price}}</span>
+  <h5>{{category.name}}</h5>
+  <div>{{category.description}}</div>
+  <div *ngIf="category.ingredients" class="ingredients"><span>Ingredients:</span>{{category.ingredients}}</div>
+  <div *ngIf="!isAdded" class="add-btn-container"><button class="btn-add" (click) = "onAddClick()">Add</button></div>
+  <div *ngIf="isAdded" class="add-sub-btn-container">
+    <button class="btn-minus" (click)="onReduceCount()">-</button>
+    <b style="color: #ff5a00;">{{count}}</b>
+    <button class="btn-plus" (click)="onPlusCount()">+</button></div>
+</div>

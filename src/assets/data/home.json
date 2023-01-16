@@ -1,0 +1,32 @@
+[
+  {
+    "image": "../../assets/images/biryani.jpg",
+    "name": "Biryani",
+    "routeTo": "./catogories/biryani"
+  },
+  {
+    "image": "../../assets/images/soups.jpg",
+    "name": "Soups",
+    "routeTo": "./catogories/soups"
+  },
+  {
+    "image": "../../assets/images/starters.jpg",
+    "name": "Starters",
+    "routeTo": "./catogories/starters"
+  },
+  {
+    "image": "../../assets/images/chai.jpg",
+    "name": "Chai",
+    "routeTo": "./catogories/chai"
+  },
+  {
+    "image": "../../assets/images/snacks.jpg",
+    "name": "Snacks",
+    "routeTo": "./catogories/snacks"
+  },
+  {
+    "image": "../../assets/images/sweets.jpg",
+    "name": "Sweets",
+    "routeTo": "./catogories/sweets"
+  }
+]

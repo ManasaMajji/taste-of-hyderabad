@@ -1,0 +1,46 @@
+.menu-container {
+  background-color: #ffa500;
+}
+
+.img-container {
+  margin-left: 2em;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.list-item {
+  margin: 1em;
+  color: #fff;
+  font-size: 300;
+  cursor: pointer;
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
+.logo {
+  width: 3em;
+  height: 3em;
+}
+
+.cart {
+  position: fixed;
+  right: 0%;
+  top: 2%;
+}
+
+.checkout {
+  button {
+    margin-right:2em;
+    margin-top:1em;
+    color: #ffa500;
+    border-color: #ffa500;
+    border-radius: 0.4em;
+    position: fixed;
+    right: 0;
+  }
+}

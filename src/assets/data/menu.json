@@ -1,0 +1,54 @@
+[
+  {
+    "menuCategory": "specialities",
+    "displayName": "Special Items"
+  },
+  {
+    "menuCategory": "soups",
+    "displayName": "Soups"
+  },
+  {
+    "menuCategory": "nvstarters",
+    "displayName": "Non-Veg Starters"
+  },
+  {
+    "menuCategory": "vegstarters",
+    "displayName": "Veg Starters"
+  },
+  {
+    "menuCategory": "nvcurries",
+    "displayName": "Non-Veg Curries"
+  },
+  {
+    "menuCategory": "vcurries",
+    "displayName": "Veg Curries"
+  },
+  {
+    "menuCategory": "biryani",
+    "displayName": "Biryani"
+  },
+  {
+    "menuCategory": "rotis",
+    "displayName": "Rotis"
+  },
+  {
+    "menuCategory": "rice",
+    "displayName": "Rice Items"
+  },
+  {
+    "menuCategory": "noodles",
+    "displayName": "Noodles"
+  },
+  {
+    "menuCategory": "colddrinks",
+    "displayName": "Cold Drinks"
+  },
+  {
+    "menuCategory": "hotdrinks",
+    "displayName": "Hot Drinks"
+  },
+  {
+    "menuCategory": "desserts",
+    "displayName": "Desserts"
+  }
+]

@@ -1,0 +1,8 @@
+
+  <div class="side-nav-container">
+  <ul>
+    <li class="category-list-item" *ngFor="let menuItem of menu">
+      <a class="category-link" [routerLink]="['/categories', menuItem.menuCategory]">{{menuItem.displayName}}</a>
+    </li>
+  </ul>
+</div>

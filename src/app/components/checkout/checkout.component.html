@@ -1,0 +1,10 @@
+<div class="checkout-container">
+  <div *ngFor="let items of cartItems">
+    <div>{{items.item}} * {{items.quantity}} = £{{(+items.price).toFixed(2)}}</div>
+  </div>
+  <div>
+    <div>-----------------------------------------------</div>
+    <span>Total:</span> <span>£{{cartValue.toFixed(2)}}</span>
+    <div>-----------------------------------------------</div>
+  </div>
+</div>

@@ -1,0 +1,111 @@
+[
+  {
+    "name": "Chicken Dum Biryani - Single",
+    "sides": "mirchi ka Salan and 1 Egg free",
+    "price": "£7.00",
+    "img": "../../../../assets/images/biryani.jpg",
+    "ingredients": "chicken,rice,spices,clarified butter",
+    "description": "Chicken marinated with spices and cooked with rice"
+  },
+  {
+    "name": "Chicken Dum Biryani - Double",
+    "sides": "mirchi ka Salan and 1 Egg free",
+    "price": "£13.50",
+    "img": "../../../../assets/images/biryani.jpg",
+    "ingredients": "chicken,rice,spices,clarified butter",
+    "description": "Chicken marinated with spices and cooked with rice"
+  },
+  {
+    "name": "Chicken Dum Biryani - Family Pack",
+    "sides": "mirchi ka Salan and 1 Egg free",
+    "price": "£18.00",
+    "img": "../../../../assets/images/biryani.jpg",
+    "ingredients": "chicken,rice,spices,clarified butter",
+    "description": "Chicken marinated with spices and cooked with rice"
+  },
+  {
+    "name": "Hyd lamb Dum Biryani - Single",
+    "img": "../../../../assets/images/biryani.jpg",
+    "price": "£8.00",
+    "ingredients": "lamb,rice,spices,clarified butter",
+    "description": "lamb marinated with spices and cooked with rice"
+  },
+  {
+    "name": "Hyd lamb Dum Biryani - Double",
+    "img": "../../../../assets/images/biryani.jpg",
+    "price": "£15.00",
+    "ingredients": "lamb,rice,spices,clarified butter",
+    "description": "lamb marinated with spices and cooked with rice"
+  },
+  {
+    "name": "Hyd lamb Dum Biryani - Family Pack",
+    "img": "../../../../assets/images/biryani.jpg",
+    "price": "£20.00",
+    "ingredients": "lamb,rice,spices,clarified butter",
+    "description": "lamb marinated with spices and cooked with rice"
+  },
+  {
+    "name": "Prawns Dum Biryani - Single",
+    "img": "../../../../assets/images/biryani.jpg",
+    "price": "£10.00",
+    "ingredients": "prawns,rice,spices,clarified butter",
+    "description": "prawns marinated with spices and cooked with rice"
+  },
+  {
+    "name": "Prawns Dum Biryani - Double",
+    "img": "../../../../assets/images/biryani.jpg",
+    "price": "£18.00",
+    "sizes": ["Single", "Double", "Family Pack"],
+    "ingredients": "prawns,rice,spices,clarified butter",
+    "description": "prawns marinated with spices and cooked with rice"
+  },
+  {
+    "name": "Prawns Dum Biryani - Family Pack",
+    "img": "../../../../assets/images/biryani.jpg",
+    "price": "£23.00",
+    "ingredients": "prawns,rice,spices,clarified butter",
+    "description": "prawns marinated with spices and cooked with rice"
+  },
+  {
+    "name": "Egg Dum Biryani - Single",
+    "img": "../../../../assets/images/biryani.jpg",
+    "price": "£6.00",
+    "ingredients": "eggs,rice,spices,clarified butter",
+    "description": "eggs marinated with spices and cooked with rice"
+  },
+  {
+    "name": "Egg Dum Biryani - Double",
+    "img": "../../../../assets/images/biryani.jpg",
+    "price": "£12.00",
+    "ingredients": "eggs,rice,spices,clarified butter",
+    "description": "eggs marinated with spices and cooked with rice"
+  },
+  {
+    "name": "Egg Dum Biryani - Family Pack",
+    "img": "../../../../assets/images/biryani.jpg",
+    "price": "£17.00",
+    "ingredients": "eggs,rice,spices,clarified butter",
+    "description": "eggs marinated with spices and cooked with rice"
+  },
+  {
+    "name": "Veg Dum Biryani - Single",
+    "img": "../../../../assets/images/biryani.jpg",
+    "price": "£6.00",
+    "ingredients": "vegetables,rice,spices,clarified butter",
+    "description": "Vegetables marinated with spices and cooked with rice"
+  },
+  {
+    "name": "Veg Dum Biryani - Double",
+    "img": "../../../../assets/images/biryani.jpg",
+    "price": "£12.00",
+    "ingredients": "vegetables,rice,spices,clarified butter",
+    "description": "Vegetables marinated with spices and cooked with rice"
+  },
+  {
+    "name": "Veg Dum Biryani - Family Pack",
+    "img": "../../../../assets/images/biryani.jpg",
+    "price": "£17.00",
+    "ingredients": "vegetables,rice,spices,clarified butter",
+    "description": "Vegetables marinated with spices and cooked with rice"
+  }
+]
