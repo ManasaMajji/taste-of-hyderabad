@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { CategoryService } from 'src/app/shared/services/category.service';
 import { ICart } from 'src/models/cart-model';
 
@@ -9,7 +9,7 @@ import { ICart } from 'src/models/cart-model';
 })
 export class CheckoutComponent implements OnInit {
 
-  cartItems: ICart[];
+   cartItems: ICart[];
   cartValue: number;
   constructor(private categoryService: CategoryService) { }
 
@@ -24,6 +24,12 @@ export class CheckoutComponent implements OnInit {
 
   calculatePrice() {
     this.cartValue = this.cartItems.reduce((acc,curVal) => acc + +curVal.price, 0)
+  }
+
+  onPlaceOrder() {
+    this.categoryService.placeOrder(this.cartItems).subscribe((res)=>{
+      console.log(res)
+    })
   }
 
 }

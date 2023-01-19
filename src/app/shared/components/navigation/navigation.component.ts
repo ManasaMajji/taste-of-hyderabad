@@ -9,26 +9,14 @@ import { CategoryService } from '../../services/category.service';
   styleUrls: ['./navigation.component.scss']
 })
 export class NavigationComponent implements OnInit {
-  cartItems: ICart[] = [];
-  cartValue: number;
 
-  constructor(private router: Router, private categoryService: CategoryService) { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
-    this.categoryService.updateCartValue.subscribe(res => {
-      this.cartItems = res;
-      if(this.cartItems?.length) {
-        this.calculatePrice();
-      }
-    })
   }
 
   proceedToCheckout() {
     this.router.navigate(['checkout'])
-  }
-
-  calculatePrice() {
-    this.cartValue = this.cartItems.reduce((acc,curVal) => acc + +curVal.price, 0)
   }
 
   navigateToHome() {

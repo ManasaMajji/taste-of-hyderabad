@@ -1,4 +1,4 @@
-.sub-category-card {
+.sub-category {
   position: relative;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .ingredients {
-  display: grid;
+  word-break: break-word;
 }
 
 .price {
