@@ -1,9 +1,13 @@
-<span class="img-container" (click)="navigateToHome()"><img class="logo" src="../../../../assets/images/charminar-logo.jpg"></span>
+<div class="img-container" (click)="navigateToHome()">
+  <img class="logo" src="../../../../assets/images/charminar-logo.jpg">
+  <h3>TASTE OF HYDERABAD</h3>
+</div>
 <div class="menu-container">
 <ul>
   <li class="list-item"><a routerLink="">Home</a></li>
-  <li class="list-item"><a routerLink="/categories" routerLinkActive=”active”>View Our Menu</a></li>
-  <li class="list-item">Contact US</li>
+  <li class="list-item"><a routerLink="/categories" routerLinkActive="active">View Our Menu</a></li>
+  <li class="list-item"><a routerLink="/contact-us" routerLinkActive="active">Contact US</a></li>
   <li class="list-item">About Us</li>
+  <li class="list-item list-item-right"><a (click)="adminLogin()">Admin Login</a></li>
 </ul>
 </div>

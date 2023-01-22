@@ -1,0 +1,27 @@
+<div class="order">
+<div *ngIf="isLogin">
+  <h3>Your Orders:</h3>
+<div class="row" *ngFor="let order of data">
+  <div *ngIf="order.userName" class="col-md-6 col-lg-6">
+    <hr>
+    <div><b>OrderId: </b>{{order.id}}</div>
+    <div><b>Phone: </b>{{order.phone}}</div>
+    <label *ngIf="order.order" style="color: #ffa500"><b>Order Details:</b></label>
+    <div *ngFor="let details of order.order">
+        <div><b>Item: </b> {{details.item}}</div>
+        <div><b>Quantity: </b> {{details.quantity}}</div>
+        <div><b>Price: </b>{{details.price}}</div>
+        <br>
+    </div>
+    <div><b>Customer Name: </b>{{order.userName}}</div>
+    <div><b>Email Id: </b>{{order.email}}</div>
+    <div><b>Address: </b>{{order.addressOne}}</div>
+    <div><b>Zip Code: </b>{{order.zipCode}}</div>
+  </div>
+</div>
+<hr>
+</div>
+<div *ngIf="!isLogin">
+<b>Please Login</b>
+</div>
+</div>

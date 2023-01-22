@@ -1,0 +1,21 @@
+.contact-us {
+  margin-top: 1em;
+  text-align: center;
+  h1 {
+    text-align: center;
+    color: #ffa500;
+  }
+  img {
+    height: 15em;
+    width: 25em;
+    text-align:left;
+    border: 3px dotted #ffa500;
+    margin-right: 1em;
+  }
+  .contact-info {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+  }
+
+}

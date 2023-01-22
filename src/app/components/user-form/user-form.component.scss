@@ -1,0 +1,24 @@
+input.ng-invalid.ng-touched {
+	border: 1px solid red;
+}
+
+.invalid {
+  color: red;
+}
+
+button {
+  margin-top: 1em;
+    border-radius: 0.3em;
+    background-color: #ffa500;
+    color: #fff;
+    border: 1px solid #ffa500;
+}
+
+button:disabled {
+  background-color: grey;
+  color: #fff;
+}
+
+::ng-deep .modal-content{
+  margin-top: 25%;
+}

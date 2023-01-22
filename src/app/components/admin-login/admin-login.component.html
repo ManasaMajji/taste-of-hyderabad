@@ -1,0 +1,19 @@
+<div class="modal-header">
+  <h4 class="modal-title">Login</h4>
+  <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="modal-body">
+  <form [formGroup]="loginForm" (ngSubmit)="authenticate()">
+    <label for= "userName">User Name:</label>
+    <input type="text" id="userName" formControlName="userName" class="form-control">
+    <span *ngIf="!loginForm.get('userName')?.valid && loginForm.get('userName')?.touched">
+    username is required</span>
+    <label for= "password">Password:</label>
+    <input type="text" id="password" formControlName="password" class="form-control">
+    <span *ngIf="!loginForm.get('password')?.valid && loginForm.get('password')?.touched">
+    Password is required</span>
+      <button type="submit" [disabled]="loginForm.invalid">Login</button>
+  </form>
+</div>

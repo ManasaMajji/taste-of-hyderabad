@@ -1,0 +1,24 @@
+.modal-header {
+  background-color: #ffa500;
+  color: #fff;
+  padding: 0.5em;
+}
+
+.close {
+  background-color: #ffa500;
+  color: #fff;
+  border: none;
+  font-size: 1.3em;
+}
+button {
+  margin-top: 1em;
+    border-radius: 0.3em;
+    background-color: #ffa500;
+    color: #fff;
+    border: 1px solid #ffa500;
+}
+
+button:disabled {
+  background-color: grey;
+  color: #fff;
+}

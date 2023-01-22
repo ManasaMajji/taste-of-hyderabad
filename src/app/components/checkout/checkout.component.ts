@@ -1,4 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { SharedModalComponent } from 'src/app/shared/components/shared-modal/shared-modal.component';
 import { CategoryService } from 'src/app/shared/services/category.service';
 import { ICart } from 'src/models/cart-model';
 
@@ -11,7 +13,7 @@ export class CheckoutComponent implements OnInit {
 
    cartItems: ICart[];
   cartValue: number;
-  constructor(private categoryService: CategoryService) { }
+  constructor(private categoryService: CategoryService, private modalService: NgbModal) { }
 
   ngOnInit(): void {
     this.categoryService.updateCartValue.subscribe(res => {
@@ -27,8 +29,8 @@ export class CheckoutComponent implements OnInit {
   }
 
   onPlaceOrder() {
+    this.modalService.open(SharedModalComponent);
     this.categoryService.placeOrder(this.cartItems).subscribe((res)=>{
-      console.log(res)
     })
   }
 

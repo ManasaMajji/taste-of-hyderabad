@@ -3,7 +3,13 @@
 }
 
 .img-container {
-  margin-left: 2em;
+  justify-content: center;
+  display: flex;
+  h3 {
+    color: #ffa500;
+    margin-top: 0.3em;
+  }
+
 }
 
 ul {
@@ -19,6 +25,9 @@ ul {
   a {
     text-decoration: none;
     color: #fff;
+  }
+  .active {
+    color: red;
   }
 }
 

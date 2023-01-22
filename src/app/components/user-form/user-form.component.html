@@ -1,0 +1,26 @@
+<div>
+<div *ngIf="!orderPlaced">
+<form [formGroup]="userForm" (ngSubmit)="onSubmit()">
+  <label for= "userName">User Name:</label>
+	<input type="text" id="userName" formControlName="userName" class="form-control">
+	<span class="invalid" *ngIf="!userForm.get('userName')?.valid && userForm.get('userName')?.touched">
+	username is required</span><br>
+  <label for= "email">Email:</label>
+  <input type="text" id="email" formControlName="email" class="form-control">
+	<span class="invalid" *ngIf="!userForm.get('email')?.valid && userForm.get('email')?.touched">
+	not a valid email</span><br>
+  <label for= "addressOne">Address Line One:</label>
+  <input type="text" id="addressOne" formControlName="addressOne" class="form-control">
+  <label for= "zipCode">Zip Code:</label>
+  <input type="text" id="zipCode" formControlName="zipCode" class="form-control">
+  <label for= "phone">Phone:</label>
+  <input type="text" id="phone" formControlName="phone" class="form-control">
+  <span class="invalid" *ngIf="!userForm.get('phone')?.valid && userForm.get('phone')?.touched">
+    Phone number is required</span><br>
+  <button [disabled]="userForm.invalid" type="submit">Submit</button>
+</form>
+</div>
+<div *ngIf="orderPlaced">
+Order Placed Successfully: {{orderId}}
+</div>
+</div>
